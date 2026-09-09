@@ -1,5 +1,3 @@
-package com.mycompany.employeepayrollrecord;
-
 import java.util.Scanner;
 
 public class EmployeePayrollRecord {
