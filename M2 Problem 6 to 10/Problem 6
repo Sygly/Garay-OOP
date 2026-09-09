@@ -1,5 +1,3 @@
-package com.mycompany.movieinformation;
-
 import java.util.Scanner;
 
 public class MovieInformation {
