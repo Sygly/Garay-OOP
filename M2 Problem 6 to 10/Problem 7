@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class BankAccountRecord {
+
+     public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Enter account holder: ");
+        String accountHolder = input.nextLine();
+
+        System.out.print("Enter account number: ");
+        String accountNumber = input.nextLine();
+
+        System.out.print("Enter account type: ");
+        String accountType = input.nextLine();
+
+        System.out.print("Enter balance: ");
+        double balance = input.nextDouble();
+
+        System.out.println("\n--- Bank Account Record ---");
+        System.out.println("Account Holder: " + accountHolder);
+        System.out.println("Account Number: " + accountNumber);
+        System.out.println("Account Type: " + accountType);
+        System.out.printf("Balance: PHP %.2f%n", balance);
+
+        input.close();
+    }
+}
